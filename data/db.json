@@ -1,0 +1,522 @@
+{
+  "users": [
+    {
+      "id": "usr_1787471762866_a6k6",
+      "name": "ABISHEK",
+      "email": "kcabishiekkumar@gmail.com",
+      "passwordHash": "6c0d2b4bfe2b60f5efa3412143b9397bc52d527360d856bf459488da36532610",
+      "role": "admin",
+      "avatar": "",
+      "department": "Executive Administrator & Security",
+      "storageUsedBytes": 15400000000,
+      "storageLimitBytes": 214748364800,
+      "createdAt": "2026-08-23T07:56:02.866Z",
+      "isMasterProtected": true,
+      "twoFactorEnabled": true,
+      "lastLogin": "2026-10-01T05:28:56.762Z",
+      "loginCount": 15,
+      "lastLoginIp": "127.0.0.1"
+    },
+    {
+      "id": "usr_bothana",
+      "name": "BOTHANA",
+      "email": "bothanapriyabothana@gmail.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "admin",
+      "avatar": "",
+      "department": "Security Co-Administrator & Vault Director",
+      "storageUsedBytes": 13743895347,
+      "storageLimitBytes": 214748364800,
+      "createdAt": "2026-09-30T10:00:00.000Z",
+      "isMasterProtected": true,
+      "twoFactorEnabled": true,
+      "lastLogin": "2026-10-01T05:15:00.000Z",
+      "loginCount": 16,
+      "lastLoginIp": "127.0.0.1 (Admin Console)"
+    },
+    {
+      "id": "usr_sarah",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@enterprise.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "admin",
+      "avatar": "",
+      "department": "Corporate Strategy & Security",
+      "storageUsedBytes": 48533130444.8,
+      "storageLimitBytes": 107374182400,
+      "createdAt": "2023-01-15T09:00:00Z"
+    },
+    {
+      "id": "usr_marcus",
+      "name": "Rahul Kumar",
+      "email": "rahul.kumar@enterprise.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "editor",
+      "avatar": "",
+      "department": "Engineering Lead",
+      "storageUsedBytes": 19864223744,
+      "storageLimitBytes": 107374182400,
+      "createdAt": "2023-03-20T10:00:00Z"
+    },
+    {
+      "id": "usr_external",
+      "name": "Rohan Mehta",
+      "email": "rohan.mehta@agency.io",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "viewer",
+      "avatar": "",
+      "department": "Strategic Consulting Partner",
+      "storageUsedBytes": 5476083302.4,
+      "storageLimitBytes": 53687091200,
+      "createdAt": "2023-06-10T14:30:00Z"
+    },
+    {
+      "id": "usr_john",
+      "name": "Arjun Verma",
+      "email": "arjun.verma@company.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "user",
+      "avatar": "",
+      "department": "Product Operations",
+      "storageUsedBytes": 13314398617.6,
+      "storageLimitBytes": 53687091200,
+      "createdAt": "2023-08-01T11:20:00Z",
+      "lastLogin": "2026-10-01T05:28:52.865Z",
+      "lastLoginIp": "127.0.0.1",
+      "loginCount": 1
+    }
+  ],
+  "files": [
+    {
+      "id": "file_proj_strat",
+      "name": "Project_Strategy.pdf",
+      "originalName": "Project_Strategy.pdf",
+      "mimeType": "application/pdf",
+      "size": 2400000,
+      "storagePath": "encrypted_file_proj_strat.vault",
+      "iv": "f06b3393098d7b4bb6b53d6f",
+      "authTag": "ef8c2aa513153f92f83fc1b062943b1a",
+      "ownerId": "usr_sarah",
+      "ownerName": "Priya Sharma",
+      "ownerEmail": "priya.sharma@enterprise.com",
+      "location": "/Q4_Planning",
+      "encrypted": true,
+      "encryptionAlgorithm": "AES-256-GCM",
+      "checksum": "241698223453d6526c11ba190fcb154ccd7981730a3aa6e5a0a6bd81788e5d29",
+      "createdAt": "2023-10-24T10:42:00Z",
+      "updatedAt": "2023-10-24T10:42:00Z",
+      "collaborators": [
+        {
+          "userId": "usr_sarah",
+          "email": "priya.sharma@enterprise.com",
+          "name": "Priya Sharma (You)",
+          "role": "owner"
+        },
+        {
+          "userId": "usr_marcus",
+          "email": "rahul.kumar@enterprise.com",
+          "name": "Rahul Kumar",
+          "role": "editor"
+        },
+        {
+          "userId": "usr_external",
+          "email": "rohan.mehta@agency.io",
+          "name": "Rohan Mehta",
+          "role": "viewer"
+        }
+      ]
+    },
+    {
+      "id": "file_q3_report",
+      "name": "Q3_Financial_Report_Final_v2.pdf",
+      "originalName": "Q3_Financial_Report_Final_v2.pdf",
+      "mimeType": "application/pdf",
+      "size": 2516582,
+      "storagePath": "encrypted_file_q3_report.vault",
+      "iv": "5a6df5d4a41162dd0d61349e",
+      "authTag": "0bfa93cb62ae68a97fddf2e37ef9641d",
+      "ownerId": "usr_john",
+      "ownerName": "Arjun Verma",
+      "ownerEmail": "arjun.verma@company.com",
+      "location": "/Finance/2023",
+      "encrypted": true,
+      "encryptionAlgorithm": "AES-256-GCM",
+      "checksum": "888744e06bd37800a550e80299e9f5287f86cfcb91e6f2659557c17a5b578152",
+      "createdAt": "2023-10-24T10:42:00Z",
+      "updatedAt": "2023-10-24T10:42:00Z",
+      "collaborators": [
+        {
+          "userId": "usr_john",
+          "email": "arjun.verma@company.com",
+          "name": "Arjun Verma",
+          "role": "owner"
+        },
+        {
+          "userId": "usr_sarah",
+          "email": "priya.sharma@enterprise.com",
+          "name": "Priya Sharma",
+          "role": "editor"
+        }
+      ]
+    },
+    {
+      "id": "file_emp_roster",
+      "name": "Employee_Roster_2024.xlsx",
+      "originalName": "Employee_Roster_2024.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 1153433,
+      "storagePath": "encrypted_file_emp_roster.vault",
+      "iv": "0b911a2c9937ae5079fcd882",
+      "authTag": "49537c74497d40c6450bbdecd84ab568",
+      "ownerId": "usr_sarah",
+      "ownerName": "Priya Sharma",
+      "ownerEmail": "priya.sharma@enterprise.com",
+      "location": "/HR/Records",
+      "encrypted": true,
+      "encryptionAlgorithm": "AES-256-GCM",
+      "checksum": "a0fd00b7b32b576fd691133ab911dca8d2f7e4a44d9c23c5c5343bef521e8455",
+      "createdAt": "2023-10-24T10:42:00Z",
+      "updatedAt": "2023-10-24T10:42:00Z",
+      "collaborators": [
+        {
+          "userId": "usr_sarah",
+          "email": "priya.sharma@enterprise.com",
+          "name": "Priya Sharma (You)",
+          "role": "owner"
+        }
+      ]
+    },
+    {
+      "id": "file_marketing_assets",
+      "name": "Marketing_Campaign_Assets.zip",
+      "originalName": "Marketing_Campaign_Assets.zip",
+      "mimeType": "application/zip",
+      "size": 145000000,
+      "storagePath": "encrypted_file_marketing_assets.vault",
+      "iv": "964c389c058906fce1da7713",
+      "authTag": "8618714b41464ead56761e7d69c99c44",
+      "ownerId": "usr_external",
+      "ownerName": "Rohan Mehta",
+      "ownerEmail": "rohan.mehta@agency.io",
+      "location": "/Campaigns/Q4",
+      "encrypted": true,
+      "encryptionAlgorithm": "AES-256-GCM",
+      "checksum": "9d682a937a3a469993d613436b5df3cd469f4a228ea08f33eef031fb85893e55",
+      "createdAt": "2023-10-24T10:42:00Z",
+      "updatedAt": "2023-10-24T10:42:00Z",
+      "collaborators": [
+        {
+          "userId": "usr_external",
+          "email": "rohan.mehta@agency.io",
+          "name": "Rohan Mehta",
+          "role": "owner"
+        },
+        {
+          "userId": "usr_sarah",
+          "email": "priya.sharma@enterprise.com",
+          "name": "Priya Sharma",
+          "role": "editor"
+        }
+      ]
+    },
+    {
+      "id": "file_apollo_source",
+      "name": "Project_Apollo_Source.zip",
+      "originalName": "Project_Apollo_Source.zip",
+      "mimeType": "application/zip",
+      "size": 4800000,
+      "storagePath": "encrypted_file_apollo_source.vault",
+      "iv": "a0a23dc7740ffc5f47f9ea86",
+      "authTag": "67a6700c0eb587a472adc53a7d591898",
+      "ownerId": "usr_marcus",
+      "ownerName": "Rahul Kumar",
+      "ownerEmail": "rahul.kumar@enterprise.com",
+      "location": "/Engineering/Source",
+      "encrypted": true,
+      "encryptionAlgorithm": "AES-256-GCM",
+      "checksum": "a35f39745cdf3591cc63dae17e8e96b6f3165a285ba4d440278c2487084ca779",
+      "createdAt": "2023-10-24T10:42:00Z",
+      "updatedAt": "2023-10-24T10:42:00Z",
+      "collaborators": [
+        {
+          "userId": "usr_marcus",
+          "email": "rahul.kumar@enterprise.com",
+          "name": "Rahul Kumar",
+          "role": "owner"
+        },
+        {
+          "userId": "usr_sarah",
+          "email": "priya.sharma@enterprise.com",
+          "name": "Priya Sharma",
+          "role": "editor"
+        }
+      ]
+    }
+  ],
+  "shareLinks": [
+    {
+      "id": "share_strat_1",
+      "token": "8k39f0a1",
+      "fileId": "file_proj_strat",
+      "fileName": "Project_Strategy.pdf",
+      "createdBy": "usr_sarah",
+      "createdByName": "Priya Sharma",
+      "expiresAt": "2026-08-30T07:44:46.162Z",
+      "passwordHash": null,
+      "maxDownloads": 50,
+      "downloadCount": 14,
+      "permission": "download",
+      "active": true,
+      "createdAt": "2023-10-24T11:00:00Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "log_1790832536763_rdat5",
+      "userId": "usr_1787471762866_a6k6",
+      "userName": "ABISHEK",
+      "userAvatar": "",
+      "action": "Switched Profile",
+      "category": "Auth",
+      "resourceName": "Active Profile: ABISHEK (ADMIN)",
+      "resourceId": "usr_1787471762866_a6k6",
+      "details": "Session context switched to ABISHEK (kcabishiekkumar@gmail.com) with admin role permissions.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-01T05:28:56.763Z"
+    },
+    {
+      "id": "log_1790832532866_y8kw8",
+      "userId": "usr_john",
+      "userName": "Arjun Verma",
+      "userAvatar": "",
+      "action": "Switched Profile",
+      "category": "Auth",
+      "resourceName": "Active Profile: Arjun Verma (USER)",
+      "resourceId": "usr_john",
+      "details": "Session context switched to Arjun Verma (arjun.verma@company.com) with user role permissions.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-01T05:28:52.866Z"
+    },
+    {
+      "id": "log_1787472102124_64dx2",
+      "userId": "usr_1787471762866_a6k6",
+      "userName": "ABISHEK",
+      "userAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "action": "Switched Profile",
+      "category": "Auth",
+      "resourceName": "Active Profile: ABISHEK (ADMIN)",
+      "resourceId": "usr_1787471762866_a6k6",
+      "details": "Session context switched to ABISHEK (kcabishiekkumar@gmail.com) with admin role permissions.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T08:01:42.124Z"
+    },
+    {
+      "id": "log_1787471832891_hbf5m",
+      "userId": "system",
+      "userName": "System",
+      "action": "Failed Login Attempt",
+      "category": "Security",
+      "resourceName": "User: kcabishiekkumar@gmail.com",
+      "details": "Invalid password or non-existent account attempted.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:57:12.891Z"
+    },
+    {
+      "id": "log_1787471828119_i7hpw",
+      "userId": "system",
+      "userName": "System",
+      "action": "Failed Login Attempt",
+      "category": "Security",
+      "resourceName": "User: kcabishiekkumar@gmail.com",
+      "details": "Invalid password or non-existent account attempted.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:57:08.119Z"
+    },
+    {
+      "id": "log_1787471794376_a6yta",
+      "userId": "system",
+      "userName": "System",
+      "action": "Failed Login Attempt",
+      "category": "Security",
+      "resourceName": "User: kcabishiekkumar@gmail.com",
+      "details": "Invalid password or non-existent account attempted.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:56:34.376Z"
+    },
+    {
+      "id": "log_1787471789567_giseb",
+      "userId": "usr_sarah",
+      "userName": "Priya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "action": "Logged In",
+      "category": "Auth",
+      "resourceName": "CloudVault Web Portal",
+      "details": "User Priya Sharma authenticated successfully with role admin.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:56:29.567Z"
+    },
+    {
+      "id": "log_1787471781015_adp54",
+      "userId": "system",
+      "userName": "System",
+      "action": "Failed Login Attempt",
+      "category": "Security",
+      "resourceName": "User: kcabishiekkumar@gmail.com",
+      "details": "Invalid password or non-existent account attempted.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:56:21.015Z"
+    },
+    {
+      "id": "log_1787471773705_pn2sk",
+      "userId": "system",
+      "userName": "System",
+      "action": "Failed Login Attempt",
+      "category": "Security",
+      "resourceName": "User: kcabishiekkumar@gmail.com",
+      "details": "Invalid password or non-existent account attempted.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:56:13.705Z"
+    },
+    {
+      "id": "log_1787471762867_kz3yc",
+      "userId": "usr_1787471762866_a6k6",
+      "userName": "ABISHEK",
+      "userAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "action": "Registered Account",
+      "category": "Auth",
+      "resourceName": "kcabishiekkumar@gmail.com",
+      "resourceId": "usr_1787471762866_a6k6",
+      "details": "New account registered for ABISHEK with user privileges.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:56:02.867Z"
+    },
+    {
+      "id": "log_1787471739611_5r3xe",
+      "userId": "system",
+      "userName": "System",
+      "action": "Failed Login Attempt",
+      "category": "Security",
+      "resourceName": "User: kcabishiekkumar@gmail.com",
+      "details": "Invalid password or non-existent account attempted.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:55:39.611Z"
+    },
+    {
+      "id": "log_1787471709452_zem90",
+      "userId": "system",
+      "userName": "System",
+      "action": "Failed Login Attempt",
+      "category": "Security",
+      "resourceName": "User: kcabishiekkumar@gmail.com",
+      "details": "Invalid password or non-existent account attempted.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:55:09.452Z"
+    },
+    {
+      "id": "log_1787471679678_lt5j2",
+      "userId": "usr_sarah",
+      "userName": "Priya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "action": "Logged In",
+      "category": "Auth",
+      "resourceName": "CloudVault Web Portal",
+      "details": "User Priya Sharma authenticated successfully with role admin.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:54:39.678Z"
+    },
+    {
+      "id": "log_1787471363089_81r47",
+      "userId": "usr_sarah",
+      "userName": "Priya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "action": "Logged In",
+      "category": "Auth",
+      "resourceName": "CloudVault Web Portal",
+      "details": "User Priya Sharma authenticated successfully with role admin.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:49:23.089Z"
+    },
+    {
+      "id": "log_1787471363065_axrun",
+      "userId": "usr_sarah",
+      "userName": "Priya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "action": "Logged In",
+      "category": "Auth",
+      "resourceName": "CloudVault Web Portal",
+      "details": "User Priya Sharma authenticated successfully with role admin.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-23T07:49:23.065Z"
+    },
+    {
+      "id": "log_1",
+      "userId": "usr_john",
+      "userName": "Arjun Verma",
+      "userAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "action": "Uploaded File",
+      "category": "File Ops",
+      "resourceName": "Q3_Financial_Report.pdf",
+      "resourceId": "file_q3_report",
+      "details": "Uploaded 2.4 MB encrypted document to /Finance/2023 with AES-256-GCM.",
+      "ip": "192.168.1.104",
+      "timestamp": "2026-08-23T07:42:46.163Z"
+    },
+    {
+      "id": "log_2",
+      "userId": "usr_sarah",
+      "userName": "Priya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "action": "Shared Link",
+      "category": "Sharing",
+      "resourceName": "Project_Alpha_Assets",
+      "resourceId": "file_proj_strat",
+      "details": "Generated public time-limited share token for external agency with 7-day expiration.",
+      "ip": "10.0.4.12",
+      "timestamp": "2026-08-23T07:29:46.163Z"
+    },
+    {
+      "id": "log_3",
+      "userId": "system",
+      "userName": "System",
+      "action": "Failed Login Attempt",
+      "category": "Security",
+      "resourceName": "User: admin_backup",
+      "details": "Multiple invalid credentials supplied from untrusted subnet. Rate limiting triggered.",
+      "ip": "198.51.100.42",
+      "timestamp": "2026-08-23T06:44:46.163Z"
+    },
+    {
+      "id": "log_4",
+      "userId": "usr_mike",
+      "userName": "Vikram Joshi",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "action": "Logged In",
+      "category": "Auth",
+      "resourceName": "SSO via Okta",
+      "details": "Authenticated successfully using SAML 2.0 Identity Provider with hardware 2FA.",
+      "ip": "172.16.8.5",
+      "timestamp": "2026-08-23T04:44:46.163Z"
+    },
+    {
+      "id": "log_5",
+      "userId": "usr_david",
+      "userName": "Deepak Nair",
+      "userAvatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80",
+      "action": "Deleted Directory",
+      "category": "File Ops",
+      "resourceName": "/archive/2022_old_files",
+      "details": "Purged 14 archived obsolete data blocks following 1-year compliance policy.",
+      "ip": "192.168.1.88",
+      "timestamp": "2026-08-22T07:44:46.163Z"
+    }
+  ],
+  "secrets": [],
+  "customFolders": [
+    "/Q4_Planning",
+    "/Finance/2023",
+    "/HR/Records",
+    "/Campaigns/Q4",
+    "/Engineering/Source",
+    "/Admin_Vault"
+  ]
+}

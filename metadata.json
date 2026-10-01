@@ -1,0 +1,6 @@
+{
+  "name": "CloudVault",
+  "description": "Secure cloud-based file storage and sharing system with AES-256 encryption, access control, share links, and audit activity logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
